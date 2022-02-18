@@ -7,10 +7,10 @@ ENV ASPNETCORE_URLS=http://*:8080
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["HelloCloud/HelloCloud.csproj", "HelloCloud/"]
-RUN dotnet restore "HelloCloud/HelloCloud.csproj"
+COPY ["HelloCloud.csproj", "./"]
+RUN dotnet restore "HelloCloud.csproj"
 COPY . .
-WORKDIR "/src/HelloCloud"
+WORKDIR "/src/."
 RUN dotnet build "HelloCloud.csproj" -c Release -o /app/build
 
 FROM build AS publish
