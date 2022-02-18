@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XDjs1VBVl7Tgvc8ya+dAeFCxAOwZ5XY2sw4YZV/7/eprFvIvQA34p3be3L5NMX2he+vW0jZrtUxcaJau72fBRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emosj\\source\\repos\\HelloCloud\\HelloCloud\\HelloCloud.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emosj\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}
