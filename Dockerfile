@@ -10,7 +10,7 @@ WORKDIR /src
 COPY ["HelloCloud/HelloCloud.csproj", "./"]
 RUN dotnet restore "HelloCloud.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src/HelloCloud"
 RUN dotnet build "HelloCloud.csproj" -c Release -o /app/build
 
 FROM build AS publish
